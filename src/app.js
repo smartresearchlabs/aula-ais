@@ -6,7 +6,7 @@ const app = express();
 
 // Define a rota principal
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World! - Pull Request(PR)");
 });
 
 // Adicionando um Pull Request
