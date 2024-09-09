@@ -9,6 +9,9 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+// Adicionando um Pull Request
+console.log("Hello World! - Pull Request");
+
 // Define a porta onde o servidor vai rodar
 const PORT = 3000;
 app.listen(PORT, () => {
